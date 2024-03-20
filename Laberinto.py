@@ -2,7 +2,7 @@ import random
 FILAS = 5
 COLUMNAS = 5
 META_FILA = FILAS - 1
-META_COLUMNA = COLUMNAS - 2
+META_COLUMNA = COLUMNAS - 3
 def main():
     laberinto = [[False] * COLUMNAS for _ in range(FILAS)]
     fila_jugador, columna_jugador = 0, 0
