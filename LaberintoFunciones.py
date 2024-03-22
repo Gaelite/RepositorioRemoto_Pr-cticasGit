@@ -1,5 +1,5 @@
 import random
-#Eduardo Gael García Zuviría 22 de marzo de 2024
+# Eduardo Gael García Zuviría 22 de marzo de 2024
 FILAS = 5
 COLUMNAS = 5
 META_FILA = FILAS - 1
