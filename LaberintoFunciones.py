@@ -1,5 +1,5 @@
 import random
-
+#Eduardo Gael García Zuviría 22 de marzo de 2024
 FILAS = 5
 COLUMNAS = 5
 META_FILA = FILAS - 1
@@ -45,11 +45,11 @@ def mover_jugador(fila_jugador, columna_jugador, movimiento):
 def main():
     laberinto = inicializar_laberinto()
     fila_jugador, columna_jugador = 0, 0
-    up_key = 'w'
-    down_key = 's'
-    left_key = 'a'
-    right_key = 'd'
-    quit_key = 'q'
+    up_key = 'e'
+    down_key = 'd'
+    left_key = 's'
+    right_key = 'f'
+    quit_key = 'w'
     while True:
         imprimir_laberinto(laberinto, fila_jugador, columna_jugador)
         if verificar_meta(fila_jugador, columna_jugador):

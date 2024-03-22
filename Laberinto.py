@@ -1,7 +1,9 @@
 import random
+#Eduardo Gael García Zuviría 22 de marzo de 2024
+
 FILAS = 5
 COLUMNAS = 5
-META_FILA = FILAS - 1
+META_FILA = FILAS - 2
 META_COLUMNA = COLUMNAS - 1
 def main():
     laberinto = [[False] * COLUMNAS for _ in range(FILAS)]
